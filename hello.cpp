@@ -1,7 +1,9 @@
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, char *argv[])
 {
-	std::cout << "Hello, my name is _______" << std::endl;
+	cout << "Hello, my name is _______" << endl;
 	return 0;
 }
