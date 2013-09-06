@@ -7,7 +7,8 @@ class Foo {
 public:
 	Foo();
 	~Foo();
-	void bar();
+	void set(const char *str);
+	void print();
 private:
 	FooImpl* impl_; //The actual pimpl
 };

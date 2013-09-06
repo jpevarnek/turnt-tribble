@@ -12,7 +12,12 @@ Foo::~Foo()
 	delete impl_;
 }
 
-void Foo::bar()
+void Foo::set(const char *str)
 {
-	impl_->bar();
+	impl_->set(str);
+}
+
+void Foo::print()
+{
+	impl_->print();
 }

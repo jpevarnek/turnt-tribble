@@ -1,6 +1,11 @@
 #include "fooImpl.h"
 
-void FooImpl::bar()
+void FooImpl::set(const char *str)
 {
-	std::cout << "Hello world!" << std::endl;
+	str_ = str;
+}
+
+void FooImpl::print()
+{
+	std::cout << str_ << std::endl;
 }

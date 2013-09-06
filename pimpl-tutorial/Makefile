@@ -10,4 +10,4 @@ pimpl_demo: foo.o fooImpl.o main.o
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
 clean:
-	rm *.o gdb_demo
+	rm *.o pimpl_demo
